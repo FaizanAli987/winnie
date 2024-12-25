@@ -6,7 +6,7 @@ import thisis from "../assets/images/thisis.png";
 function TwoColSection() {
   return (
     <section className="twocol mt-[40px] flex gap-[32px] justify-center">
-      <div className="mobilesm:rounded-[60px] rounded-[30px] overflow-hidden relative max-w-[873px] min-h-[500px] mobilesm:min-h-[870px] w-full">
+      <div className="mobilesm:rounded-[60px] rounded-[30px] overflow-hidden relative max-w-[890px] min-h-[500px] mobilesm:min-h-[870px] w-full">
         <video
           className="absolute top-0 left-0 w-full h-full object-cover"
           autoPlay
@@ -18,7 +18,7 @@ function TwoColSection() {
           Your browser does not support the video tag.
         </video>
       </div>
-      <div className="mobilesm:rounded-[60px] rounded-[30px] py-[60px] mobilesm:py-[110px] px-[12px] flex  items-center flex-col overflow-hidden bg-[#F46224] relative max-w-[873px] min-h-[500px] mobilesm:min-h-[870px] w-full">
+      <div className="mobilesm:rounded-[60px] rounded-[30px] py-[60px] mobilesm:py-[110px] px-[12px] flex  items-center flex-col overflow-hidden bg-[#F46224] relative max-w-[890px] min-h-[500px] mobilesm:min-h-[870px] w-full">
         <img src={purplecoin} className="twocol-purple" alt="" />
         <img src={orangecoin} className="twocol-orange" alt="" />
         <img src={orangecoin} className="twocol-orange2" alt="" />

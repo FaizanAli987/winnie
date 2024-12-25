@@ -4,6 +4,11 @@ import HeroSection from "../components/HeroSection";
 import TokenSection from "../components/TokenSection";
 import TwoColSection from "../components/TwoColSection";
 import MissionSection from "../components/MissionSection";
+import ImgTextSection from "../components/ImgTextSection";
+import BuySection from "../components/BuySection";
+import AssetSection from "../components/AssetSection";
+import JoinSection from "../components/JoinSection";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -16,8 +21,12 @@ function Home() {
         <TokenSection />
         <TwoColSection />
         <MissionSection />
+        <ImgTextSection />
+        <BuySection />
+        <AssetSection />
+        <JoinSection />
       </main>
-      <footer></footer>
+      <Footer />
     </>
   );
 }
