@@ -8,7 +8,9 @@ html {
   box-sizing: border-box;
 }
 body {
+  background-color: #ebe9e4;
   font-family: "Barlow", serif;
+  color: white;
 }
 h1,
 h2,
@@ -18,6 +20,78 @@ h5,
 h6 {
   font-family: "Barlow Condensed", serif;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
+}
+.tokenbg {
+  background-image: url(assets/images/tokenbg.png);
+  background-size: cover;
+  background-position: center center;
+}
+.mission-section{
+  background-image: url(assets/images/missionbg.png);
+  background-size: cover;
+  background-position: center center;
+}
+.twocol-purple,
+.twocol-orange,
+.twocol-orange2 {
+  position: absolute;
+}
+.twocol-purple {
+  max-width: 179px;
+  max-height: 179px;
+  left: 10px;
+  top: 10px;
+  transform: rotate(70deg);
+}
+.twocol-orange {
+  max-width: 200px;
+  right: 10px;
+  top: 10px;
+  transform: rotate(38deg);
+}
+.twocol-orange2 {
+  max-width: 200px;
+  left: -75px;
+  bottom: 10px;
+  transform: rotate(-32deg);
+}
+
+@media (max-width: 1540px) {
+  .twocol-orange {
+    max-width: 160px;
+  }
+  .twocol-purple {
+    max-width: 140px;
+  }
+}
+@media (max-width: 1140px) {
+  .twocol {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 600px) {
+  .twocol-orange {
+    max-width: 100px;
+  }
+  .twocol-purple {
+    max-width: 100px;
+  }
+  .twocol-orange2 {
+    max-width: 100px;
+    left: -38px;
+  }
+}
+@media (max-width: 480px) {
+  .twocol-orange {
+    max-width: 90px;
+  }
+  .twocol-purple {
+    max-width: 90px;
+  }
+  .twocol-orange2 {
+    max-width: 90px;
+    left: -45px;
+  }
 }

@@ -5,8 +5,10 @@ module.exports = {
     extend: {
       screens: {
         'mobile': '0px',        // Mobile screens (default)
+        'mobilesm': '600px',        // Mobile screens (default)
         'tablet': '768px',      // Tablet screens
-        'desktop': '1024px',    // Desktop screens
+        'desktopsm': '992px',    // Desktop screens
+        'desktop': '1240px',    // Desktop screens
       },
     },
   },
