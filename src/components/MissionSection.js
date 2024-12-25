@@ -1,8 +1,10 @@
 import React from "react";
-
+import spaceship from "../assets/images/spaceship.png";
+import orangecoin from "../assets/images/orangecoin.gif";
+import purplecoin from "../assets/images/purplecoin.gif";
 function MissionSection() {
   return (
-    <section className="mission-section mt-[40px] max-w-[1810px] w-full mx-auto pt-[116px] pb-[94px] pl-[153px] mobilesm:rounded-[54px] rounded-[30px]">
+    <section className="mission-section relative mt-[40px] max-w-[1810px] w-full mx-auto pt-[116px] pb-[94px] pl-[60px] desktop:pl-[153px] mobilesm:rounded-[54px] rounded-[30px]">
       <div>
         <h2 className="mb-[60px] tablet:text-[82px] mobilesm:text-[60px] text-[40px] leading-[48px] mobilesm:leading-[69px] font-bold">
           {" "}
@@ -23,6 +25,13 @@ function MissionSection() {
         >
           View our Impact
         </a>
+
+        <div className="imgdiv">
+        <img src={spaceship} className="mission-image" alt="" />
+
+        <img src={orangecoin} className="mission-orange" alt="" />
+        <img src={purplecoin} className="mission-purple" alt="" />
+        </div>
       </div>
     </section>
   );
