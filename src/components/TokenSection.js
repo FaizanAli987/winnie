@@ -3,27 +3,30 @@ import dog from "../assets/images/dog.png";
 import dex from "../assets/images/dex.png";
 import coingeko from "../assets/images/coingexko.png";
 import coinmarket from "../assets/images/cm.png";
-import wcoin from "../assets/images/wcoin.png"
+import wcoin from "../assets/images/wcoin.png";
 function TokenSection() {
   const [isCopied, setIsCopied] = useState(false);
 
   const handleCopy = () => {
     const address = "4ZrxMzvqQ8f37ViijJTYp3FZqFTkG47rZhETx2dPpump";
-  
+
     if (navigator.clipboard && navigator.clipboard.writeText) {
       // Modern API
-      navigator.clipboard.writeText(address).then(() => {
-        setIsCopied(true);
-        setTimeout(() => setIsCopied(false), 2000); // Reset after 2 seconds
-      }).catch(() => {
-        fallbackCopyTextToClipboard(address);
-      });
+      navigator.clipboard
+        .writeText(address)
+        .then(() => {
+          setIsCopied(true);
+          setTimeout(() => setIsCopied(false), 2000); // Reset after 2 seconds
+        })
+        .catch(() => {
+          fallbackCopyTextToClipboard(address);
+        });
     } else {
       // Fallback
       fallbackCopyTextToClipboard(address);
     }
   };
-  
+
   // Fallback method
   const fallbackCopyTextToClipboard = (text) => {
     const textArea = document.createElement("textarea");
@@ -33,7 +36,7 @@ function TokenSection() {
     document.body.appendChild(textArea);
     textArea.focus();
     textArea.select();
-  
+
     try {
       document.execCommand("copy");
       setIsCopied(true);
@@ -41,14 +44,17 @@ function TokenSection() {
     } catch (err) {
       console.error("Fallback: Unable to copy", err);
     }
-  
+
     document.body.removeChild(textArea);
   };
-  
 
   return (
     <section className="mt-[40px] relative max-w-[1810px] mx-auto rounded-[30px] tablet:rounded-[60px] tokenbg">
-        <img src={wcoin} className="absolute -top-[17px] left-[50%] -translate-x-[50%] mobilesm:w-[120px] mobilesm:h-[120px] w-[80px] h-[80px] object-contain" alt="" />
+      <img
+        src={wcoin}
+        className="absolute -top-[17px] left-[50%] -translate-x-[50%] mobilesm:w-[120px] mobilesm:h-[120px] w-[80px] h-[80px] object-contain"
+        alt=""
+      />
       <div className="max-w-[1214px] mx-auto mobilesm:pt-[124px] pt-[80px] pb-[60px] tablet:pb-[109px] px-[20px]">
         <div className="desktopsm:flex-nowrap flex-wrap justify-center py-[10px] px-[13px] border-white border-[2px] border-solid rounded-[30px] tablet:rounded-[60px] flex items-center gap-[20px]">
           <img
@@ -71,7 +77,7 @@ function TokenSection() {
         </div>
         <div className="flex items-center desktop:flex-nowrap justify-center flex-wrap gap-[25px] desktop:justify-between">
           <a
-            href="#"
+            href="/"
             className="max-w-[388px] w-full h-[85px] mobilesm:justify-start justify-center flex gap-[30px] mobilesm:gap-[54px] bg-[#7026F2] rounded-[42px] items-center leading-[64px] text-[18px] mobilesm:text-[24px] font-medium py-[17px] px-[19px]"
           >
             <img
@@ -82,7 +88,7 @@ function TokenSection() {
             DEXScreener
           </a>
           <a
-            href="#"
+            href="/"
             className="max-w-[388px] w-full h-[85px] flex gap-[30px] mobilesm:gap-[54px] bg-[#7026F2] rounded-[42px] items-center leading-[64px] text-[18px] mobilesm:text-[24px] font-medium mobilesm:justify-start justify-center py-[17px] px-[19px]"
           >
             <img
@@ -93,7 +99,7 @@ function TokenSection() {
             CoinGecko
           </a>
           <a
-            href="#"
+            href="/"
             className="max-w-[388px] w-full h-[85px] mobilesm:justify-start justify-center flex gap-[30px] mobilesm:gap-[54px] bg-[#7026F2] rounded-[42px] items-center leading-[64px] text-[18px] mobilesm:text-[24px] font-medium py-[17px] px-[19px]"
           >
             <img

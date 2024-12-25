@@ -18,7 +18,7 @@ function MissionSection() {
           and on the streets.
         </p>
         <a
-          href="#"
+          href="/"
           className="tablet:min-w-[308px] max-w-[200px] tablet:max-w-[308px] mt-[30px] tablet:mt-[70px] gap-[21px] flex items-center justify-center text-center min-h-[50px] tablet:min-h-[85px] bg-black text-[14px] tablet:text-[20px] leading-[24px] font-bold rounded-[42px] text-white"
         >
           View our Impact
