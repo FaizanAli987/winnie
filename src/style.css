@@ -172,6 +172,18 @@ a {
     left: -38px;
   }
 }
+@media (max-width: 550px) {
+  .mission-purple {
+    bottom: 9%;
+    right: 19%;
+    max-width: 60px;
+  }
+  .mission-orange {
+    max-width: 60px;
+    top: 25%;
+    left: 14%;
+  }
+}
 @media (max-width: 480px) {
   .twocol-orange {
     max-width: 90px;
