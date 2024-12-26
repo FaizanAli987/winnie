@@ -1,5 +1,4 @@
 import React from "react";
-import dog from "../assets/images/orangedog.png";
 function AssetSection() {
   return (
     <>
