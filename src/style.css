@@ -17,6 +17,10 @@ body {
   overflow-x: hidden;
 }
 
+main {
+  overflow-x: hidden;
+}
+
 h1,
 h2,
 h3,
@@ -29,11 +33,16 @@ h6 {
 a {
   text-decoration: none;
 }
-.tokenbg , .mission-section , .buysection , .joinbg{
+
+.tokenbg,
+.mission-section,
+.buysection,
+.joinbg {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
+
 .tokenbg {
   background-image: url(assets/images/tokenbg.png);
 }
@@ -45,9 +54,11 @@ a {
 .buysection {
   background-image: url(assets/images/buybg.png);
 }
-.joinbg{
+
+.joinbg {
   background-image: url(assets/images/joinbg.png);
 }
+
 .twocol-purple,
 .twocol-orange,
 .twocol-orange2 {
@@ -134,12 +145,117 @@ a {
   margin-bottom: 5px;
 }
 
-.absolute-join{
+.absolute-join {
   position: absolute;
   bottom: 6%;
   left: 50%;
   transform: translateX(-50%);
 }
+
+.buy-orangeleft,
+.buy-orangeright,
+.join-orange-top-right,
+.join-orange-bottom-right,
+.join-orange-left {
+  max-width: 200px;
+  position: absolute;
+}
+
+.join-purpletop-left,
+.join-purplebottom-left,
+.join-purple-right {
+  max-width: 180px;
+  position: absolute;
+}
+
+.buy-orangeleft {
+  top: -10%;
+  left: 0;
+  transform: rotate(-28deg);
+}
+
+.buy-orangeright {
+  bottom: -25%;
+  right: 0;
+  transform: rotate(34deg);
+}
+
+.join-purplebottom-left {
+  bottom: 10%;
+  left: -50px;
+  transform: rotate(8deg);
+}
+
+.join-purpletop-left {
+  left: 17%;
+  top: 22%;
+  transform: rotate(-22deg);
+}
+
+.join-orange-left {
+  left: 16%;
+  bottom: 22%;
+  transform: rotate(-28deg);
+}
+
+.join-orange-top-right {
+  right: 16%;
+  top: 10%;
+  transform: rotate(49deg);
+}
+
+.join-purple-right {
+  bottom: 19%;
+  right: 12%;
+  transform: rotate(70deg);
+}
+
+.join-orange-bottom-right {
+  bottom: 2%;
+  right: 0%;
+  transform: rotate(101deg);
+}
+
+@media(max-width:1750px) {
+  .join-purpletop-left {
+    left: 17%;
+    top: 25%;
+    max-width: 148px;
+    transform: rotate(-22deg);
+  }
+}
+
+@media(max-width:1622px) {
+  .join-purpletop-left {
+    left: 4%;
+  }
+
+  .join-orange-top-right {
+    right: 4%;
+    max-width: 140px;
+  }
+
+  .join-orange-left {
+    left: 7%;
+    bottom: 23%;
+    max-width: 140px;
+  }
+
+  .join-purple-right {
+    bottom: 21%;
+    right: 7%;
+    max-width: 120px;
+  }
+
+  .join-orange-bottom-right {
+    max-width: 140px;
+  }
+
+  .join-purplebottom-left {
+    max-width: 120px;
+  }
+}
+
 @media (max-width: 1540px) {
   .twocol-orange {
     max-width: 160px;
@@ -240,6 +356,15 @@ a {
   .mission-purple {
     bottom: 3rem;
   }
+
+  .buy-orangeleft {
+    max-width: 120px;
+  }
+
+  .buy-orangeright {
+    bottom: -15%;
+    max-width: 120px;
+  }
 }
 
 @media(max-width:897px) {
@@ -251,6 +376,36 @@ a {
     text-align: center;
   }
 
+  .join-purpletop-left {
+    left: 2%;
+    max-width: 80px;
+  }
+
+  .join-orange-top-right {
+    right: 3%;
+    max-width: 90px;
+  }
+
+  .join-orange-bottom-right {
+    max-width: 80px;
+  }
+
+  .join-purple-right {
+    bottom: 23%;
+    right: 5%;
+    max-width: 70px;
+  }
+
+  .join-orange-left {
+    left: 5%;
+    bottom: 26%;
+    max-width: 80px;
+  }
+
+  .join-purplebottom-left {
+    max-width: 70px;
+    left: -2%;
+  }
 }
 
 @media (max-width: 600px) {
@@ -270,11 +425,13 @@ a {
   .textbox-flex {
     gap: 32px;
   }
+
   .grey-li,
-.dark-li {
-  list-style: none;
-  padding: 0;
-}
+  .dark-li {
+    list-style: none;
+    padding: 0;
+  }
+
 }
 
 @media (max-width: 550px) {
@@ -289,11 +446,26 @@ a {
     top: 25%;
     left: 14%;
   }
+
+  .buy-orangeleft {
+    max-width: 75px;
+    top: -4%;
+    left: -4%;
+  }
+
+  .buy-orangeright {
+    bottom: -8%;
+    max-width: 75px;
+  }
 }
 
 @media (max-width: 480px) {
   .twocol-orange {
     max-width: 90px;
+  }
+
+  .buy-orangeleft {
+    max-width: 45px;
   }
 
   .twocol-purple {
@@ -303,5 +475,31 @@ a {
   .twocol-orange2 {
     max-width: 90px;
     left: -45px;
+  }
+
+  .join-orange-top-right {
+    max-width: 50px;
+  }
+
+  .join-purple-right {
+    max-width: 40px;
+  }
+
+  .join-purpletop-left {
+    left: 4%;
+    max-width: 50px;
+  }
+
+  .join-orange-left {
+    max-width: 40px;
+  }
+
+  .join-purplebottom-left {
+    max-width: 50px;
+    left: -2%;
+  }
+
+  .join-orange-bottom-right {
+    max-width: 50px;
   }
 }

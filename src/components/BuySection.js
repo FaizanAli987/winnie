@@ -1,9 +1,10 @@
 import React from "react";
 import ghost from "../assets/images/ghost.png";
+import orangecoin from "../assets/images/orangecoin.gif";
 function BuySection() {
   return (
-    <section className="buysection mx-auto mt-[40px] max-w-[1810px] rounded-[30px] tablet:rounded-[54px] pt-[30px] mobilesm:pt-[72px] pb-[30px] mobilesm:pb-[64px] px-[20px]">
-      <div className="max-w-[1410px] mx-auto">
+    <section className="buysection overflow-hidden mx-auto mt-[40px] max-w-[1810px] rounded-[30px] tablet:rounded-[54px] pt-[30px] mobilesm:pt-[72px] pb-[30px] mobilesm:pb-[64px] px-[20px]">
+      <div className="max-w-[1410px] mx-auto relative">
         <h2 className="desktopsm:mb-[42px] mb-[20px] tablet:text-[82px] mobilesm:text-[50px] text-center text-[40px] leading-[48px] mobilesm:leading-[69px] font-bold">
           HOW TO BUY WINNIE
         </h2>
@@ -61,6 +62,8 @@ function BuySection() {
         >
           Buy on Phantom
         </a>
+        <img src={orangecoin} className="buy-orangeleft" alt="" />
+        <img src={orangecoin} className="buy-orangeright" alt="" />
       </div>
     </section>
   );

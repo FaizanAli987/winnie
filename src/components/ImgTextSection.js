@@ -48,7 +48,7 @@ function ImgTextSection() {
         <div className="relative">
           <img
             src={origin}
-            className="rounded-[20px] object-cover w-full min-h-[240px] desktop:min-h-[400px mb-[38px]"
+            className="rounded-[20px] object-cover w-full min-h-[240px] desktop:min-h-[400px] mb-[38px]"
             alt=""
           />
         </div>

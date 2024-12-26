@@ -1,5 +1,7 @@
 import React from "react";
 import telegram from "../assets/images/blackplane.png";
+import orangecoin from "../assets/images/orangecoin.gif";
+import purplecoin from "../assets/images/purplecoin.gif";
 function JoinSection() {
   return (
     <section className="mobilesm:min-h-[600px] min-h-[400px] tablet:min-h-[970px] max-w-[1810px] joinbg relative mx-auto mt-[32px] tablet:rounded-[60px] rounded-[30px]">
@@ -14,6 +16,12 @@ function JoinSection() {
           alt=""
         />
       </a>
+      <img src={orangecoin} className="join-orange-top-right" alt="" />
+      <img src={orangecoin} className="join-orange-bottom-right" alt="" />
+      <img src={orangecoin} className="join-orange-left" alt="" />
+      <img src={purplecoin} className="join-purpletop-left" alt="" />
+      <img src={purplecoin} className="join-purplebottom-left" alt="" />
+      <img src={purplecoin} className="join-purple-right" alt="" />
     </section>
   );
 }
