@@ -77,7 +77,7 @@ function TokenSection() {
         </div>
         <div className="flex items-center desktop:flex-nowrap justify-center flex-wrap gap-[25px] desktop:justify-between">
           <a
-            href="https://dexscreener.com/solana/aem9xwusdvfwecbz7p158ybaomcwqfymopbuarrawzx5CG"
+            href="https://dexscreener.com/solana/AEm9xwUsDvFWeCBZ7P158YbaoMCWQFYmoPbUArrawZX5"
             className="max-w-[388px] w-full h-[85px] mobilesm:justify-start justify-center flex gap-[30px] mobilesm:gap-[54px] bg-[#7026F2] rounded-[42px] items-center leading-[64px] text-[18px] mobilesm:text-[24px] font-medium py-[17px] px-[19px]"
           >
             <img

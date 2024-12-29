@@ -6,7 +6,7 @@ import insa from "../assets/images/insta.png";
 function Navbar() {
   return (
     <>
-      <div className="flex items-start justify-center">
+      <div className="flex items-start justify-center overflow-hidden max-w-[100vw]">
         <gecko-coin-price-marquee-widget
           locale="en"
           transparent-background="true"
