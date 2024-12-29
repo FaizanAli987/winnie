@@ -22,8 +22,8 @@ function Home() {
         <MissionSection />
 
         <BuySection />
-        <AssetSection />
         <JoinSection />
+        <AssetSection />
       </main>
       <Footer />
     </>

@@ -28,13 +28,12 @@ function TwoColSection() {
           alt=""
         />
         <p className="mobilesm:mt-[73px] mt-[40px] text-black font-medium leading-[32px] mobilesm:leading-[49px] text-[18px] mobilesm:text-[24px] max-w-[550px] text-center">
-          $WINNIE the Poodle is a charity-focused fantoken aimed at improving
-          the lives of dogs in need. Inspired by Winnie, a joyful poodle, the
-          fantoken’s mission is to use blockchain technology tosupport dogs
-          facing hardships. The initiative seeks to provide essential resources
-          to dogs in shelters, rescue centers, and on the streets, with the goal
-          of ensuring every dog enjoys a life filled with love, care, and
-          happiness.
+          $WINNIE is a charity-focused fantoken inspired by the playful and
+          loving spirit of Winnie, a joyful poodle. This token is more than
+          crypto—it’s a celebration of community, compassion, and the incredible
+          bond we share with our furry friends. By channeling Winnie’s energy
+          and joy, $WINNIE is here to create a brighter future for dogs in need,
+          one pawprint at a time.
         </p>
       </div>
     </section>

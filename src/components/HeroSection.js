@@ -20,14 +20,13 @@ function HeroSection() {
           TO THE <br /> WINNIEVERSE.
         </h1>
         <p className="text-[16px] tablet:text-[24px] text-white leading-[24px] tablet:leading-[37px] max-w-[220px] tablet:max-w-[411px]">
-          Buy $WINNIE, share the love and join the community to help more
-          homeles pets around the world.
+        Join $WINNIE in helping make a difference for homeless pets worldwide!
         </p>
         <a
-          href="/"
+          href="https://t.me/winniepoodle"
           className="tablet:min-w-[328px] max-w-[200px] tablet:max-w-[328px] mt-[30px] tablet:mt-[70px] gap-[21px] flex items-center justify-center text-center min-h-[50px] tablet:min-h-[85px] bg-black text-[14px] tablet:text-[20px] leading-[24px] font-bold rounded-[42px] text-white"
         >
-          Join the Winnieverse{" "}
+          Join the Winnieverse
           <img
             src={telegram}
             className="tablet:max-w-[28px] max-w-[18px]"

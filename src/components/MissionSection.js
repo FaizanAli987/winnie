@@ -8,19 +8,17 @@ function MissionSection() {
       <div>
         <h2 className="desktopsm:mb-[60px] mb-[20px] tablet:text-[82px] mobilesm:text-[50px] desktopsm:text-left text-center text-[40px] leading-[48px] mobilesm:leading-[69px] font-bold">
           {" "}
-          POODLE ON A MISSION.
+          A POODLE ON A MISSION
         </h2>
         <p className="text-[16px] tablet:text-[24px] text-white desktopsm:text-left desktopsm:ml-0 mx-auto text-center leading-[24px] tablet:leading-[41px] max-w-[400px] tablet:max-w-[530px]">
-          At Winnie the Poodle Coin, our mission is to provide vital support and
-          resources to dogs in disarray. We envision a world where every dog,
-          regardless of their circumstances, enjoys a life filled with love,
-          care, and happiness. By leveraging the potential of blockchain
-          technology, our community and the spirit of the crypto world, we aim
-          to transform the lives of countless dogs in shelters, rescue centers,
-          and on the streets.
+          At Winnie the Poodle Coin, our mission is to provide vital resources
+          and support to dogs, ensuring they live lives filled with love, care,
+          and happiness. By leveraging crypto and the power of a passionate
+          community, $WINNIE aims to create real-world impact by partnering with
+          shelters, supporting rescue centers, and helping dogs in need.
         </p>
         <a
-          href="/"
+          href="https://joeysfriends.com/"
           className="tablet:min-w-[308px] max-w-[200px] desktopsm:ml-0 mx-auto  tablet:max-w-[308px] mt-[30px] tablet:mt-[70px] gap-[21px] flex items-center justify-center text-center min-h-[50px] tablet:min-h-[85px] bg-black text-[14px] tablet:text-[20px] leading-[24px] font-bold rounded-[42px] text-white"
         >
           View our Impact

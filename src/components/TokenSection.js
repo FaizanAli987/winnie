@@ -73,11 +73,11 @@ function TokenSection() {
           </button>
         </div>
         <div className="mt-[23px] mb-[16px] leading-[64px] text-[20px] mobilesm:text-[24px] font-medium text-center">
-          View Winnie the Poodle on
+          View Winnie's Journey at:
         </div>
         <div className="flex items-center desktop:flex-nowrap justify-center flex-wrap gap-[25px] desktop:justify-between">
           <a
-            href="/"
+            href="https://dexscreener.com/solana/aem9xwusdvfwecbz7p158ybaomcwqfymopbuarrawzx5CG"
             className="max-w-[388px] w-full h-[85px] mobilesm:justify-start justify-center flex gap-[30px] mobilesm:gap-[54px] bg-[#7026F2] rounded-[42px] items-center leading-[64px] text-[18px] mobilesm:text-[24px] font-medium py-[17px] px-[19px]"
           >
             <img
@@ -88,7 +88,7 @@ function TokenSection() {
             DEXScreener
           </a>
           <a
-            href="/"
+            href="https://www.coingecko.com/en/coins/winnie-the-poodle"
             className="max-w-[388px] w-full h-[85px] flex gap-[30px] mobilesm:gap-[54px] bg-[#7026F2] rounded-[42px] items-center leading-[64px] text-[18px] mobilesm:text-[24px] font-medium mobilesm:justify-start justify-center py-[17px] px-[19px]"
           >
             <img
@@ -99,7 +99,7 @@ function TokenSection() {
             CoinGecko
           </a>
           <a
-            href="/"
+            href="https://coinmarketcap.com/currencies/winnie-the-poodle/"
             className="max-w-[388px] w-full h-[85px] mobilesm:justify-start justify-center flex gap-[30px] mobilesm:gap-[54px] bg-[#7026F2] rounded-[42px] items-center leading-[64px] text-[18px] mobilesm:text-[24px] font-medium py-[17px] px-[19px]"
           >
             <img
