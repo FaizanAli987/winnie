@@ -15,7 +15,7 @@ function Home() {
       <header>
         <Navbar />
       </header>
-      <main className="mt-[150px] mobilesm:mt-[193px] desktop:px-[56px] px-[10px]">
+      <main className="mt-[100px] mobilesm:mt-[153px] desktop:px-[56px] px-[10px]">
         <HeroSection />
         <TokenSection />
         <TwoColSection />

@@ -33,7 +33,9 @@ h6 {
 a {
   text-decoration: none;
 }
-
+gecko-coin-price-marquee-widget {
+  width: 100%;
+}
 .tokenbg,
 .mission-section,
 .buysection,
