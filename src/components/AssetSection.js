@@ -2,7 +2,7 @@ import React from "react";
 function AssetSection() {
   return (
     <>
-    <div className="max-w-[1810px] mx-auto mt-[32px]">
+    <div className="max-w-[1810px] mx-auto mt-[23px] mobilesm:mt-[40px] ">
       <gecko-coin-ticker-widget
         locale="en"
         outlined="true"

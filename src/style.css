@@ -33,8 +33,10 @@ h6 {
 a {
   text-decoration: none;
 }
-gecko-coin-price-marquee-widget {
-  width: 100%;
+.copyicon {
+  max-width: 18px;
+  display: inline-block;
+  filter: invert(1);
 }
 .tokenbg,
 .mission-section,
@@ -218,7 +220,7 @@ gecko-coin-price-marquee-widget {
   transform: rotate(101deg);
 }
 
-@media(max-width:1750px) {
+@media (max-width: 1750px) {
   .join-purpletop-left {
     left: 17%;
     top: 25%;
@@ -227,7 +229,7 @@ gecko-coin-price-marquee-widget {
   }
 }
 
-@media(max-width:1622px) {
+@media (max-width: 1622px) {
   .join-purpletop-left {
     left: 4%;
   }
@@ -341,7 +343,6 @@ gecko-coin-price-marquee-widget {
   }
 }
 
-
 @media (max-width: 992px) {
   .imgdiv {
     position: relative;
@@ -369,7 +370,7 @@ gecko-coin-price-marquee-widget {
   }
 }
 
-@media(max-width:897px) {
+@media (max-width: 897px) {
   .hrline {
     display: none;
   }
@@ -433,7 +434,6 @@ gecko-coin-price-marquee-widget {
     list-style: none;
     padding: 0;
   }
-
 }
 
 @media (max-width: 550px) {

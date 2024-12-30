@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import ghost from "../assets/images/ghost.png";
 import orangecoin from "../assets/images/orangecoin.gif";
+import clipicon from "../assets/images/copy.png"
 function BuySection() {
   const [isCopied, setIsCopied] = useState(false);
 
@@ -46,7 +47,7 @@ function BuySection() {
   };
 
   return (
-    <section className="buysection overflow-hidden mx-auto mt-[40px] max-w-[1810px] rounded-[30px] tablet:rounded-[54px] pt-[30px] mobilesm:pt-[72px] pb-[30px] mobilesm:pb-[64px] px-[20px]">
+    <section className="buysection overflow-hidden mx-auto mt-[23px] mobilesm:mt-[40px]  max-w-[1810px] rounded-[30px] tablet:rounded-[54px] pt-[30px] mobilesm:pt-[72px] pb-[30px] mobilesm:pb-[64px] px-[20px]">
       <div className="max-w-[1410px] mx-auto relative">
         <h2 className="desktopsm:mb-[42px] mb-[20px] tablet:text-[82px] mobilesm:text-[50px] text-center text-[40px] leading-[48px] mobilesm:leading-[69px] font-bold">
           HOW TO BUY WINNIE
@@ -94,12 +95,19 @@ function BuySection() {
             </h4>
             <p className="tablet:text-[18px] font-semibold text-[14px] text-center text-[#D0D0D0]">
               Go to “Swap” in Phantom, select Solana, enter Winnie’s contract
-              address{" "}
+              address{" "} 
               <span onClick={handleCopy} style={{ cursor: "pointer" }}>
-                {" "}
-                {isCopied ? "Copied" : "📋"}{" "}
-              </span>{" "}
-              , and exchange Solana for $WINNIE tokens.
+                {isCopied ? (
+                  "Copied"
+                ) : (
+                  <img
+                    src={clipicon}
+                    alt="Copy icon"
+                    className="copyicon"
+                  /> 
+                )} 
+              </span> {" "} 
+               , and exchange Solana for $WINNIE tokens.
             </p>
           </div>
         </div>

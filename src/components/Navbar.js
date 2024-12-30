@@ -49,7 +49,7 @@ function Navbar() {
           </div>
           <div>
             <a
-              href="/"
+              href="https://dexscreener.com/solana/AEm9xwUsDvFWeCBZ7P158YbaoMCWQFYmoPbUArrawZX5"
               className="tablet:min-w-[197px] flex items-center justify-center text-center px-[14px] py-[10px] tablet:p-[0] tablet:min-h-[64px] bg-black text-[12px] tablet:text-[20px] leading-[24px] font-bold rounded-[32px]  text-white"
             >
               Buy $WINNIE

@@ -6,7 +6,7 @@ import telegram from "../assets/images/telegram.png";
 import insta from "../assets/images/insta.png";
 function Footer() {
   return (
-    <footer className="bg-black w-full pt-[75px] mt-[69px] pb-[80px] mobilesm:pb-[148px]  desktop:px-[170px] px-[40px]">
+    <footer className="bg-black w-full pt-[75px] mt-[23px] mobilesm:mt-[69px]  pb-[80px] mobilesm:pb-[148px]  desktop:px-[170px] px-[40px]">
       <div className="flex mobilesm:flex-nowrap flex-wrap gap-[60px] mobilesm:gap-[20px] items-center mobilesm:flex-row flex-col mobilesm:justify-between justify-center max-w-[1400px] mx-auto">
         <div>
           <img src={logo} className="max-w-[186px]" alt="" />
