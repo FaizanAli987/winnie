@@ -20,7 +20,7 @@ function HeroSection() {
           TO THE <br /> WINNIEVERSE.
         </h1>
         <p className="text-[16px] tablet:text-[24px] text-white leading-[24px] tablet:leading-[37px] max-w-[220px] tablet:max-w-[411px]">
-        Join $WINNIE in helping make a difference for homeless pets worldwide!
+        Join $WINNIE in helping make a difference for homeless dogs worldwide!
         </p>
         <a
           href="https://t.me/winniepoodle"
