@@ -4,7 +4,7 @@ import orangecoin from "../assets/images/orangecoin.gif";
 import purplecoin from "../assets/images/purplecoin.gif";
 function MissionSection() {
   return (
-    <section className="mission-section relative mt-[23px] mobilesm:mt-[40px] max-w-[1810px] w-full mx-auto pt-[30px] tablet:pt-[60px] desktopsm:pt-[116px] pb-[30px] tablet:pb-[60px] desktopsm:pb-[94px] px-[20px] desktopsm:pr-[0] desktopsm:pl-[60px] desktop:pl-[153px] mobilesm:rounded-[54px] rounded-[30px]">
+    <section className="mission-section relative mt-[40px] mobilesm:mt-[40px] max-w-[1810px] w-full mx-auto pt-[30px] tablet:pt-[60px] desktopsm:pt-[116px] pb-[30px] tablet:pb-[60px] desktopsm:pb-[94px] px-[20px] desktopsm:pr-[0] desktopsm:pl-[60px] desktop:pl-[153px] mobilesm:rounded-[54px] rounded-[30px]">
       <div>
         <h2 className="desktopsm:mb-[60px] mb-[20px] tablet:text-[82px] mobilesm:text-[50px] desktopsm:text-left text-center text-[40px] leading-[48px] mobilesm:leading-[69px] font-bold">
           {" "}

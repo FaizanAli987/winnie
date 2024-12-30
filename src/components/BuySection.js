@@ -47,7 +47,7 @@ function BuySection() {
   };
 
   return (
-    <section className="buysection overflow-hidden mx-auto mt-[23px] mobilesm:mt-[40px]  max-w-[1810px] rounded-[30px] tablet:rounded-[54px] pt-[30px] mobilesm:pt-[72px] pb-[30px] mobilesm:pb-[64px] px-[20px]">
+    <section className="buysection overflow-hidden mx-auto mt-[40px] mobilesm:mt-[40px]  max-w-[1810px] rounded-[30px] tablet:rounded-[54px] pt-[30px] mobilesm:pt-[72px] pb-[30px] mobilesm:pb-[64px] px-[20px]">
       <div className="max-w-[1410px] mx-auto relative">
         <h2 className="desktopsm:mb-[42px] mb-[20px] tablet:text-[82px] mobilesm:text-[50px] text-center text-[40px] leading-[48px] mobilesm:leading-[69px] font-bold">
           HOW TO BUY WINNIE

@@ -5,7 +5,7 @@ import purplecoin from "../assets/images/purplecoin.gif";
 import thisis from "../assets/images/thisis.png";
 function TwoColSection() {
   return (
-    <section className="twocol  mt-[23px] mobilesm:mt-[40px] flex gap-[23px] maobilesm:gap-[32px] justify-center">
+    <section className="twocol  mt-[40px] mobilesm:mt-[40px] flex gap-[40px] maobilesm:gap-[32px] justify-center">
       <div className="mobilesm:rounded-[60px] rounded-[30px] overflow-hidden relative max-w-[890px] min-h-[500px] mobilesm:min-h-[870px] w-full">
         <video
           className="absolute top-0 left-0 w-full h-full object-cover"
